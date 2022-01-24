@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header1{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #2D2929;
+}
+
+.container1{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container1 i{
+    font-size: 25px;
+    color: white;
+}
+
+.container1 p{
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.container-grid{
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    justify-content: space-between;
+}
+
+.container2{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 i 
+{
+    font-size: 25px;
+    color: white;
+}
+
+.facebook i:hover{
+    color: #4c36da;
+    transition: .4s;
+}
+
+.instagram i:hover{
+    color: rgb(221, 81, 105) ;
+    transition: .4s;
+}
+
+.twitter i:hover{
+    color: #5940e4;
+    transition: .4s;
+}
+
+.whats i:hover{
+    color: #4ff14a;
+    transition: .4s;
+}
+
+.header2{
+    background-color: #2D2929;
+    width: 100%;
+    height: 100px;
+}
+
+.container-grid2{
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    width: 1129px;
+    height: 100%; 
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+}
+
+.container4 input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    background-color: #2D2929;
+}
+
+.container4 input:hover{
+    background-color: white;
+    transition: .6s;
+}
+
+.container4 button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2D2929;
+    color: white;
+    cursor: pointer;
+}
+
+.container4 button:hover{
+    background-color: white;
+    color: #2D2929;
+    transition: .6s;
+}
+
+.container5{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.container5 i{
+    color: white;
+    font-size: 25px;
+
+}
+
+.header3{
+    background-color: #2D2929;
+    width: 100%;
+    height: 50px;
+}
+
+.container-grid3{
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    width: 1129px;
+    height: 100%; 
+}
+
+.container6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.container6 a:hover{
+    color: #2D2929;
+    background-color: white;
+    transition: .6s;
+}

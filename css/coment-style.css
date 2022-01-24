@@ -1,0 +1,166 @@
+.c-slider
+{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    font-family: sans-serif;
+}
+
+.c-slider p
+{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.c-coment-box
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.c-img-container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.c-img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.c-img img
+{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 1100px;
+}
+
+.c-box-text
+{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.client-name
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client-name span
+{
+    color: whitesmoke;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+    font-style: italic;
+}
+
+.client-coment
+{
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.c-box-text p
+{
+    font-size: 1rem;
+}
+
+.localizacao
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.localizacao .c-local 
+{
+    font-size: 0.9rem;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.coment-box
+{
+    width: 1100px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(0, 0, 0, 0.082);
+    
+}
+
+.coment-box p
+{
+   font-size: 28px;
+   font-family: sans-serif;
+   color: whitesmoke;
+   text-transform: uppercase;
+   display: flex;
+}
+
+.ur-coment input
+{
+    width: 400px;
+    height: 30px;
+    background-color: rgba(45, 41, 41, 0.97);
+    border: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.ur-coment button
+{
+    height: 30px;
+    background-color: rgba(75, 49, 236, 1);
+    border: none;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.txt-box textarea
+{
+    resize: none;
+    width: 454px;
+    height: 150px;
+    margin-top: 5px;
+    background-color: rgba(45, 41, 41, 0.97);
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 300;
+}
