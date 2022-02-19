@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <script src="https://kit.fontawesome.com/8fbacaae40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+    <main class="login-box">
+
+        
+    
+        <a class="a" href="index.html"><img src="img/logo/Logo-login.png" alt=""></a>
+    
+        <h1>Bora logar!</h1>
+
+    <form method="post" action="" onsubmit="return(verifica())" name="frmEnvia" class="input">
+        
+        <input autocomplete="off" name="email" id="email" type="text" onblur="checarEmail();" placeholder="E-mail">
+      
+         
+        <input id="senha" name="password" type="password" placeholder="Senha ">
+        
+        <a href="">Esqueci minha senha</a>
+
+        <button type="submit" id="login">Login</button>
+    </form>
+
+    <a class="cad" href="">Cadastre-se</a>
+    
+    </main>
+
+</body>
+
+<script src="js/login.js"></script>
+</html>

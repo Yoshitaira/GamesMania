@@ -19,15 +19,16 @@
 <body>
 
     <header>
-        <div class="header1 container">
+        <div class="header container">
 
-                <div class="container1">
+                <!-- <div class="container1">
                     <i class="fas fa-truck"></i><p>Frete grátis em compras acima de 250R$</p>
-                </div>
+                </div> -->
 
             
                 <div class="container2">
 
+                    <div class="redes-sociais">
                     <div class="facebook">
                         <a href=""><i class="fab fa-facebook-square"></i></a>
                     </div>
@@ -43,47 +44,61 @@
                     <div class="whats">
                         <a href=""><i class="fab fa-whatsapp-square"></i></a>
                     </div>
-
                 </div>
 
-        </div>
-
-        <div class="header2 container">
+                    <div class="icones-resp">
+                        <a href=""><i class="fas fa-headset"></i></a>
+                        <a href="login.html"><i class="fas fa-user"></i></a>
+                        <a href=""><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+            </div>
+            
+            <div class="mobile-scr">
+                <a href="">Fale conosco</a>
+                <div></div>
+                <a href="">Login</a>
+                <div></div>
+                <a href="">Carrinho</a>
+                <div></div>
+                <a href="">Redes Sociais</a>
+                
+            </div>
     
                 <div class="container3">
-                    <img src="img/logo/Sem título.png" alt="">
+                    <a href="index.html"><img src="img/logo/Logo-login.png" alt=""></a>
     
                     <form action="#" method="post">
                         <input type="text" name="search" id="search" placeholder="  O que você deseja? " required> 
-                        <button type="submit"><i class="fas fa-search"></i></button>
+                        <button id="searchl" class="search" type="submit"><i class="fas fa-search"></i></button>
                     </form>
                     
-                    
+                    <div class="icones">
                         <a href=""><i class="fas fa-headset"></i></a>
-                        <a href=""><i class="fas fa-user"></i></a>
+                        <a href="login.html"><i class="fas fa-user"></i></a>
                         <a href=""><i class="fas fa-shopping-bag"></i></a>
-
-                        <div id="menu-bar" class="menu-bar">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
+                    </div>
+                       
+                        <nav>
+                            <ul class="nav-list">
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="index.html">PC/Notebook</a></li>
+                               <li><a href="index.html">PC Gamer</a></li>
+                               <li><a href="index.html">Smartphones</a></li>
+                               <li><a href="index.html">Jogos</a></li>
+                               <li><a href="index.html">Periféricos</a></li>
+                               <li><a href="index.html">Ofertas</a></li>
+                            </ul>
+                        </nav>
+        
+                       <div class="mobile-menu">
+                           <div class="linha11"></div>
+                           <div class="linha2"></div>
+                           <div class="linha3"></div>
+                       </div>
 
                 </div>
-    
-        </div>
-    
-        <div class="header3 container">
-    
-                <nav class="container6">
-                    <a class="menu" href="index.html">Home</a>
-                    <a class="menu" href="pc-note.html">PC/Notebook</a>
-                    <a class="menu" href="">PC Gamer</a>
-                    <a class="menu" href="">Smartphones</a>
-                    <a class="menu" href="">Jogos</a>
-                    <a class="menu" href="">Periféricos</a>
-                    <a class="menu" href="">Ofertas</a>
-                </nav>
+
+                
     
         </div>
 
@@ -661,6 +676,7 @@
 
 </body>
 
+<script src="js/script.js"></script>
 <script>
     var stars = document.querySelectorAll('.star-icon');
 

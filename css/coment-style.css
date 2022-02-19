@@ -118,7 +118,6 @@
     display: flex;
     justify-content: space-around;
     background-color:  rgba(0, 0, 0, 0.082);
-    
 }
 
 .coment-box p
@@ -296,4 +295,27 @@
 .avaliation:hover .star-icon::before{
     content: "\2605";
 }
+}
+
+@media only screen and (max-width: 777px){
+    
+    .coment-box p{
+        font: 18px;
+        width: 100%;
+    }
+    .container11{
+        width: 50%;
+    }
+    .ur-coment{
+        width: 50%;
+    }
+    .ur-coment input{
+        width: 75%;
+    }
+    .ur-coment button{
+        width: 20%;
+    }
+    .txt-box textarea{
+        width: 96%;
+    }
 }
